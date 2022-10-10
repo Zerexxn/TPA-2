@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;800&display=swap');
+body{
+    min-height: 100vh;
+    background: url('back.jpg');
+    width: auto;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    background-color: white;
+    border-radius: 20px;
+    padding: 40px 25px 25px;
+    position: absolute;
+    left: 40%;
+    top:  20%;
+    transform: translate(-70%, -50);
+}
+
+.box{
+    text-align: center;
+    border-radius: 15px;
+    position: relative;
+}
+.content{
+    padding: 0 40px;
+
+}
+
+.input{
+    background: #fff;
+    box-shadow: 0px 0px 95px -30px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    padding: 20px 0;
+    margin-bottom: 30px;
+}
+
+.input label{
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.input input{
+    outline: none;
+    border: none;
+    border-bottom: 4px solid #1F8A70;
+    width: 300px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+button#hitung{
+    text-align: center;
+    background-color: #0262b0;
+    color:#fff;
+    font-weight: bold;
+    margin-top: -20px;
+    width: 300px;
+    height: 30px;
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    transition: 0.3s;
+}
+
+button#hitung:hover{
+    box-shadow: 0px 4px 58px -5px rgba(0, 0, 0, 0.5);
+}
+.hasil{
+    padding: 20px 30px;
+}
+
+.result p{
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 15px;
+}
+.hasil #result{
+    font-size: 26px;
+    font-weight: 600;
+    color: #1F8A70;
+    background-color: #CBC5F0;
+    display: inline-block;
+    padding: 7px 20px;
+    border-radius: 55px;
+    margin-bottom: 20px;
+}
+.text{
+    color: aqua;
+}
